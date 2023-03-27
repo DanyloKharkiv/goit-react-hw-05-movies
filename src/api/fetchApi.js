@@ -4,7 +4,7 @@ import axios from 'axios';
   const response = await axios.get(`https://api.themoviedb.org/3/${path}`, {
     method: 'get',
     params: {
-      api_key: 'cfb3f1c097fdc1e68787a815ffed0794',
+      api_key: 'a81c1605085a06fbd0d7cd3eb503f28e',
       query: query,
       page: page,
     },
